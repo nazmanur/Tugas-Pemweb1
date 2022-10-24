@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Pizza</title>
+</head>
+<body>
+    <h2><P style="background-color:red">Black Goose Bistro  |  Pizza-On-Demand</P></h2>
+    <p>Our 12' wood-fired pizzas are available for delivery. Build your <br> custom pizza and we'll deliver it within an hour </p>
+<hr>
+    <form action="FormHasilPemesanan_0110122204_NazmaNur.html">
+        <table>
+            <!-- buka thead -->
+            <thead>
+                <tr>
+                    <th colspan="0"><h3>Your Information</h3></th>
+                </tr>
+            </thead>
+            <!-- tutup thead -->
+            <tbody>
+                <tr>
+                    <td><label for="">Name</label></td>
+                    <td>: <input type="text" name="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Address</label></td>
+                    <td>: <input type="text" name="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Telephone Number</label></td>
+                    <td>: <input type="number" name="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td>: <input type="email" name="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Delivery Instruction</label></td>
+                    <td>: <textarea name="deskripsi" id="" type="text"></textarea></td>
+                </tr>
+            </tbody>
+            <!-- tutup tbody -->
+        </table>
+        <br>
+        <!-- tutup table -->
+        <!-- buka fieldset -->
+        <fieldset>
+            <legend><b><P style="background-color:rgb(248, 165, 165)">Design Your Dream Pizza</P></b></legend>
+            <center><img width="300px" src="img/pizza.jpg"></center>
+            <h4>Crust (Choose one) :</h4> 
+            <ul style="list-style: none;">
+                <li>
+                    <input type="radio" id="white" name="Crust">
+                    <label for="">Classic White</label>
+                </li>
+                <li>
+                    <input type="radio" id="white" name="Crust">
+                    <label for="">Multigrain</label>
+                </li>
+                <li>
+                    <input type="radio" id="white" name="Crust">
+                    <label for="">Una Melt</label>
+                </li>
+                <li> 
+                    <input type="radio" id="white" name="Crust">
+                    <label for="">Gulten-free</label>
+                </li>
+            </ul>
+            <h4>Toppings (Choose as many as you want) :</h4>
+            <ul style="list-style: none;">
+                <li>
+                    <input type="checkbox" id="white" name="Crust"> 
+                    <label for="">Red Sauce</label>                 
+                </li>
+                <li>
+                    <input type="checkbox" id="white" name="Crust"> 
+                    <label for="">White Sauce</label>                 
+                </li>
+                <li>
+                    <input type="checkbox" id="white" name="Crust">
+                    <label for="">Mozarella Cheese</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="white" name="Crust">
+                    <label for="">Mushrooms</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="white" name="Crust">
+                    <label for="">Peppers</label>
+                </li>
+            </ul>
+            <h4>Number</h4>
+            <label for="">How Many Pizza : </label>
+            <input type="number" id="jumlah"> <br><br>
+            <input type="submit" name="proses" value="submit">
+            <input type="reset" name="unproses" value="reset">
+        </fieldset>
+    </form>
+        <!-- tutup form -->
+</body>
+</html>
