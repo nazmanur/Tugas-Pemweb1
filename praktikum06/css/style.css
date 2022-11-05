@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(221, 255, 236);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#header{
+    background-color: rgb(34, 180, 59);
+    text-align: center;
+    padding: 10px;
+}
+#header h1{
+    color: rgb(253, 252, 252);
+}
+#header blockquote{
+    background-color: yellow;
+}
+.menu ul{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.gambar{
+    text-align: center;
+}
+.fp::first-letter{
+    font-size: 50px;
+    color: blue;
+}
+.koleksi{
+    text-align: center;
+}
+.koleksi img{
+    width: 20%;
+}
+.promo{
+    color:red
+} 
