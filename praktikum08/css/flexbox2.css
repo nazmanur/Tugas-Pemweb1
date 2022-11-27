@@ -1,0 +1,46 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+#main{
+    display: flex;
+    flex: 1;  /*menempati ruang kosong di body*/
+}
+#main > article{
+    flex: 1;  /*menempati sisa ruang yang ada pada flex container main*/
+    order: 1;
+}
+#main > nav
+#main > aside
+{
+   flex: 0 0 20vw; /*mengatur lebar nav dan aside sebesar 20% dari lebar parent div main*/
+}
+#main > nav
+{
+    background-color: rgb(79, 147, 187);
+    order: 2; /*untuk mengatur urutan item*/
+}
+#main > aside
+{
+    background-color: rgb(91, 185, 78);
+    order: 3; /*untuk mengatur urutan item*/
+}
+header
+{
+    background-color: rgb(255, 153, 0);
+    height: 20vh; /*satuan css yang relatif ke layar browser vh = mengatur tinggi layar browser*/
+}
+footer{
+    background-color: brown;
+    height: 20vh; 
+}
+header, footer, article, nav, aside 
+{
+    padding: 2em;
+}

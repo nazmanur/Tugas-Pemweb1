@@ -1,0 +1,55 @@
+body{
+    background-color:beige;
+}
+.container{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.box{
+    height: 150px;
+    border-style: solid;
+}
+.topbox{
+    background-color: rgb(106, 255, 155);
+    width: 99%;
+    height: 100px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.isi{
+    height: 150px;
+    justify-content: space-between;
+    margin: 9px;
+    width: 60%;
+    border-radius: 4px;
+    border-style: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.aside{
+    width: 20%;
+    height: 450px;
+    background-color: rgb(241, 113, 113);
+}
+.article{
+    width: 80%;
+    height: 450px;
+    background-color: rgb(254, 255, 179);
+}
+img{
+    width: 30%;
+    margin: 15px;
+    margin-top: 180px;
+    border: 2px;
+}
+.buttombox{
+    background-color: rgb(6, 205, 255);
+    width: 99%;
+    height: 100px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
